@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Music Player with Slider | Swiper JS</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css'>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body>
+    <div class="album-cover">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+              src="Images/Ozzy Osbourne - Crazy Train.jpg" />
+            <div class="overlay">
+              <a
+                href="https://youtu.be/Tnw6XGzXlo8?si=ZoT15NGIBDGKm0Z1"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="Images/Highway to Hell.jpg" />
+            <div class="overlay">
+              <a
+                href="https://youtu.be/ikFFVfObwss?si=SZn383_dfK98gqAB"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="Images/Should I Stay or Should I Go.jpeg" />
+            <div class="overlay">
+              <a
+                href="https://youtu.be/wjZMcWaniA4?si=S0lNHuW2H4m49Wvs"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="Images/The Emptiness Machine.jpg" />
+            <div class="overlay">
+              <a
+                href="https://youtu.be/SRXH9AbT280?si=Z5E4gugKRJUESeir"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="Images/red dead.jpg" />
+            <div class="overlay">
+              <a
+                href="https://youtu.be/i1fRYeZ_eWs?si=DBpez2j0OKRCyB1R"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="Images/Back_in_Black.jpg" />
+            <div class="overlay">
+              <a
+                href="https://youtu.be/9vWNauaZAgg?si=tPFBDV6o09Ek8ci7"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="Images/Mighty Long Fall.jpg" />
+            <div class="overlay">
+              <a
+                href="https://youtu.be/UjZqcDYbvAE?si=ARKOTnRWwiClG8Mz"
+                target="_blank"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="music-player">
+      <h1>Title</h1>
+      <p>Song Name</p>
+
+      <audio id="song">
+        <source src="song-list/Luke-Bergs-Gold.mp3" type="audio/mpeg" />
+      </audio>
+
+      <input type="range" value="0" id="progress" />
+
+      <div class="controls">
+        <button class="backward">
+          <i class="fa-solid fa-backward"></i>
+        </button>
+        <button class="play-pause-btn">
+          <i class="fa-solid fa-play" id="controlIcon"></i>
+        </button>
+        <button class="forward">
+          <i class="fa-solid fa-forward"></i>
+        </button>
+      </div>
+    </div>
+  </body>
+<!-- partial -->
+  <script src='https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js'></script>
+<script src='https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js'></script>
+<script src='https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
